@@ -1,0 +1,27 @@
+{
+  "name": "avax-nft-view",
+  "version": "1.0.0",
+  "description": "Display NFT from avax wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clementserrano/avax-nft-view.git"
+  },
+  "author": "Clément Serrano",
+  "keywords": [
+    "avax",
+    "nft"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clementserrano/avax-nft-view/issues"
+  },
+  "homepage": "https://github.com/clementserrano/avax-nft-view#readme",
+  "dependencies": {
+    "@avalabs/avalanche-wallet-sdk": "^0.7.3",
+    "avalanche": "^3.7.0"
+  }
+}
