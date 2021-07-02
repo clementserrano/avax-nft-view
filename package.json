@@ -22,6 +22,12 @@
   "homepage": "https://github.com/clementserrano/avax-nft-view#readme",
   "dependencies": {
     "@avalabs/avalanche-wallet-sdk": "^0.7.3",
-    "avalanche": "^3.7.0"
+    "avalanche": "^3.7.0",
+    "axios": "^0.21.1",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/filesystem": "0.0.31"
   }
 }

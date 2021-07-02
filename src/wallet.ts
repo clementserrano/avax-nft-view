@@ -1,5 +1,5 @@
 import { MnemonicWallet } from '@avalabs/avalanche-wallet-sdk';
-import secrets from './secrets.json';
+import secrets from '../secrets.json';
 
 const wallet = MnemonicWallet.fromMnemonic(secrets.mnemonic);
 
@@ -17,4 +17,5 @@ wallet.getHistory().then(histories => {
 
 // Not every address is fetched
 console.log(wallet.getAllAddressesX());
+
 
